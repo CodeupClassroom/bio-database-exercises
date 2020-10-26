@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS quotes(
     content TEXT NOT NULL,
     PRIMARY KEY (id)
 );
-DESCRIBE quotes;
+# DESCRIBE quotes;
 
 DROP TABLE IF EXISTS pets;
 CREATE TABLE IF NOT EXISTS pets(
@@ -24,4 +24,4 @@ CREATE TABLE IF NOT EXISTS pets(
     is_neutered BOOLEAN,
     PRIMARY KEY (id)
 );
-DESCRIBE pets;
+# DESCRIBE pets;
